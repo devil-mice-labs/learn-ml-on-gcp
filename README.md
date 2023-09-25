@@ -38,6 +38,8 @@ IAM concepts to know: `Principals`, `Resource`, `Permissions`, `IAM Roles`, `IAM
 
 [Using resource hierarchy for access control](https://cloud.google.com/iam/docs/resource-hierarchy-access-control) docs page connects the conceptual models of the two services -- `Resource Manager` and `IAM` to demonstrate how access policies work at different levels of the resource hierarchy and how the policies propagate down the structure of that hierarchy.
 
+[`Cloud Audit Logs`](https://cloud.google.com/logging/docs/audit) – Google Cloud services write audit logs that record administrative activities and accesses within your Google Cloud resources. Audit logs help you answer "who did what, where, and when?" within your Google Cloud resources with the same level of transparency as in on-premises environments.
+
 [Quotas](https://cloud.google.com/docs/quota) restrict how much of a particular shared Google Cloud resource you can use. Learn to [view and manage quotas](https://cloud.google.com/docs/quota_detail/view_manage).
 
 > [!NOTE]
