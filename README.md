@@ -96,6 +96,8 @@ Google’s [Machine Learning Crash Course](https://developers.google.com/machine
 
 [`Organisation Policy Service`](https://cloud.google.com/resource-manager/docs/organization-policy/overview) allows you to set *constraints* at various levels of your Google Cloud resource hierarchy, restricting the ways in which these resources can be created and used, thus protecting yourself from security incidents and overspend.
 
+[`Access Transparency`](https://cloud.google.com/assured-workloads/access-transparency/docs/overview) logs are great for keeping an eye on Google personnel accessing your organisation's data 😈 This service is **not** enabled by default, you'd need a paid support package to enable the service. As of the time of writing, the basic support goes for $29 a month which is a steal, IMO, and under the current rules it will qualify you for enabling this service.
+
 ## Python
 
 There are too many books, online resources, and courses available on this. I learned a lot from this one -- [`Real Python`](https://realpython.com/). The free version is good but I think the subscription is worth it -- you get access to even more content and they do Office Hours on Slack where there is a very lively learner community.
