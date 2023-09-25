@@ -6,7 +6,7 @@ Compiled by your friendly independent consultant [Oliver Frolovs](https://github
 
 ## Staying up-to-date and exploring possibilities
 
-* [Data Analytics | Google Cloud Blog](https://cloud.google.com/blog/products/data-analytics) features news, updates, and best practices for building your data cloud on Google Cloud.
+* [`Data Analytics`](https://cloud.google.com/blog/products/data-analytics) and [`AI & Machine Learning`](https://cloud.google.com/blog/products/ai-machine-learning) sections of [`Google Cloud Blog`](https://cloud.google.com/blog/) feature news, use cases, and best practices. Oddly satisfying.
 * [Google Cloud release notes](https://cloud.google.com/release-notes) cover the most recent changes to Google Cloud products and services. This is useful for learning about new features or breaking changes.
 * [Google Cloud Architecture Centre](https://cloud.google.com/architecture) offers many end-to-end examples of how Google Cloud services can be connected to solve interesting problems.
 * The full list of current [Google Cloud products](https://cloud.google.com/products) with a brief description for each one. Our focus:
