@@ -124,7 +124,7 @@ You can (optionally) make your certification record public on [Google Cloud Cert
 
 For [TensorFlow](https://www.tensorflow.org/) ML library, there is a [TensorFlow Developer Certificate](https://www.tensorflow.org/certificate).
 
-And for infrastructure automation [Terraform Associate](https://www.hashicorp.com/certification/terraform-associate) is the way to go.
+And for infrastructure automation [Terraform Associate](https://www.hashicorp.com/certification/terraform-associate) is the way to go. The official [study guide](https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-study-003) is quite good.
 
 ## Notation
 
