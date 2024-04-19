@@ -135,4 +135,5 @@ The AI products and services sometimes are rebranded and reshuffled. This sectio
 * `Generative AI App Builder` is now `Vertex AI Search and Conversation`, and its components are
   - `Enterprise Search` is now `Vertex AI Search`
   - `Conversational AI` is now `Vertex AI Conversation`
-* ...
+* [`Bard` is now `Gemini`](https://blog.google/products/gemini/bard-gemini-advanced-app/)
+* [`Duet AI` is now `Gemini` and `Gemini for Workspace`](https://blog.google/technology/ai/google-gemini-update-sundar-pichai-2024/)
