@@ -19,10 +19,12 @@ For hardcore and very curious techies:
 * [GitHub repo with common solutions and tools](https://github.com/GoogleCloudPlatform/professional-services) developed by Google Cloud's Professional Services team. This repository and its contents are not an officially supported Google product. But there are many interesting real-world examples of how Google Cloud services can be used.
 
 
-## Google Cloud fundamentals
+## Must-know Google Cloud concepts
 
-> [!NOTE]
-> Regardless of your role, you *should* know about these fundamental services and concepts. The concepts in this section are cross-cutting so they apply in one way or the other to every Google Cloud resource you create or use.
+The concepts and services introduced in this section *should* be learned by every Google Cloud practitioner without exception, as they are crucial for access and cost controls and directly or indirectly impact *every action* taken in Google Cloud.
+
+> [!CAUTION]
+> A single security incident of the right kind can wipe out your career, if not the entire business you work for. An unexpected cloud bill can turn a profitable year into a year of losses. Don't let it happen to you &mdash; study this section at the earliest opportunity. 
 
 All Google Cloud resources exist in a tree-like [resource hierarchy](https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy). This hierarchy provides attach points for access control and organisation policies. [`Resource Manager`](https://cloud.google.com/resource-manager) enables you to manage this hierarchy.
 
