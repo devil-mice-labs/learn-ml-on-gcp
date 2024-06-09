@@ -24,30 +24,57 @@ For hardcore and very curious techies:
 The concepts and services introduced in this section *should* be learned by every Google Cloud practitioner without exception, as they are crucial for access and cost controls and directly or indirectly impact *every action* taken in Google Cloud.
 
 > [!CAUTION]
-> A single security incident of the right kind can wipe out your career, if not the entire business you work for. An unexpected cloud bill can turn a profitable year into a year of losses. Don't let it happen to you &mdash; study this section at the earliest opportunity. 
+> A single security incident of the right kind can wipe out your career, if not the entire business you work for. An unexpected cloud bill can turn a profitable year into a year of losses. Don't let it happen to you &mdash; study this section at the earliest opportunity in your cloud journey. 
 
-All Google Cloud resources exist in a tree-like [resource hierarchy](https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy). This hierarchy provides attach points for access control and organisation policies. [`Resource Manager`](https://cloud.google.com/resource-manager) enables you to manage this hierarchy.
+The remainder of this chapter is split into subsections, each of which introducing a new core concept or service.
 
-<!--
-Resource Manager concepts to know: `project`, `folder`, `organisation`.
--->
+### Resource Hierarchy
 
-[`Identity and Access Management (IAM)`](https://cloud.google.com/iam) system lets you grant granular access to specific Google Cloud resources and helps prevent access to other resources. IAM lets you adopt the security principle of least privilege. Read [IAM overview](https://cloud.google.com/iam/docs/overview) to learn how IAM works.
+You can think of Google Cloud as a collection of services (APIs) such as Kubernetes Engine (API) or Google Cloud Storage (API). You make use of these services (APIs) to provision various **resources** such as Kubernetes clusters and storage buckets. Once a resource is provisioned and configured, you can access and use it.
 
-<!--
-IAM concepts to know: `Principals`, `Resource`, `Permissions`, `IAM Roles`, `IAM Allow Policy`, `IAM Deny Policy`, `IAM Conditions`
--->
+All those **resources** exist in a tree-like **[resource hierarchy](https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy)** and you should know about it as well as about its constituent parts such as the `Folder`, the `Project`, and the `Organisation` resources described in the referenced docs page.
 
-[Using resource hierarchy for access control](https://cloud.google.com/iam/docs/resource-hierarchy-access-control) docs page connects the conceptual models of the two services -- `Resource Manager` and `IAM` to demonstrate how access policies work at different levels of the resource hierarchy and how the policies propagate down the structure of that hierarchy.
+The [Resource Manager](https://console.cloud.google.com/cloud-resource-manager), which is a part of IAM section of Google Cloud Console, provides a convenient way to visualise and hierarchically manage resources by project, folder, and organisation. You can find more information about the Resource Manager in its [documentation](https://cloud.google.com/resource-manager/docs).
 
-[`Cloud Audit Logs`](https://cloud.google.com/logging/docs/audit) – Google Cloud services write audit logs that record administrative activities and accesses within your Google Cloud resources. Audit logs help you answer "who did what, where, and when?" within your Google Cloud resources with the same level of transparency as in on-premises environments.
+The resource hierarchy also provides attach points and inheritance for **access management** and **organisation policies**. 
+
+### Identity and Access Management
+
+[`Identity and Access Management (IAM)`](https://cloud.google.com/iam) service lets administrators authorize who can take action on specific resources, giving you full control and visibility to manage Google Cloud resources centrally. Read the [IAM overview](https://cloud.google.com/iam/docs/overview) page to learn how IAM works. The IAM concepts you should know are: `Principals`, `Resource`, `Permissions`, `IAM Roles` (basic and predefined), `IAM Allow Policy`, `IAM Deny Policy`, and `IAM Conditions`.
+
+Now that you know about the **resource hierarchy** and **IAM policies**, read the page that explains how to [use resource hierarchy for access control](https://cloud.google.com/iam/docs/resource-hierarchy-access-control). Remember that the levels of the resource hierarchy &mdash; organisations, folders, and projects provide attach points where the access management policies can be configured.
+
+You should also read [service accounts overview](https://cloud.google.com/iam/docs/service-account-overview).
+
+You might also want to review [IAM best practices](https://cloud.google.com/iam/docs/using-iam-securely).
+
+### Organisation Policies
+
+TODO [Organization Policy Service](https://cloud.google.com/resource-manager/docs/organization-policy/overview)
+
+### Audit Logs
+
+Google Cloud services write audit logs that record administrative activities and accesses within your Google Cloud resources. Audit logs help you answer "who did what, where, and when?" within your Google Cloud resources. You should read [`Cloud Audit Logs overview`](https://cloud.google.com/logging/docs/audit) to learn what kinds of Audit Logs are available and which ones are enabled by default and how this is done. 
+
+Having learned about the different kinds of Audit Logs, you might want to enable some of the optional Audit Logs for your Google Cloud environment. The documentation can tell you what is logged under each kind of Audit Log for different Google Cloud APIs.
+
+Note, that Audit Logs configuration is a part of IAM policy and as such, Audit Logs can be configured at the same levels of Google Cloud resource hierarchy as the IAM policies that were introduced in the previous section. The inheritance also works for Audit Logs configuration.
+
+So hopefully now you can see the connection between the resource hierarchy, the IAM policies, and the Audit Logs configuration.
+
+TODO [Access Transparency](https://cloud.google.com/assured-workloads/access-transparency/docs/overview)
+
+### Quotas and Limits
 
 [Quotas](https://cloud.google.com/docs/quota) restrict how much of a particular shared Google Cloud resource you can use. Learn to [view and manage quotas](https://cloud.google.com/docs/quota_detail/view_manage).
 
-> [!NOTE]
-> Many services also have **limits** that are unrelated to the quota system. Limits are fixed constraints, such as maximum file sizes or database schema limitations, which cannot be increased or decreased. You can find out about limits on the relevant Quotas and limits page for your service.
+Many services also have **limits** that are unrelated to the quota system. Limits are fixed constraints, such as maximum file sizes or database schema limitations, which cannot be increased or decreased.
+
+### Billing budgets and exports
 
 Learn to [create Cloud Billing budgets and alerts](https://cloud.google.com/billing/docs/how-to/budgets) to monitor your spending on Google Cloud.
+
+### BigQuery
 
 Learn to [create custom cost controls for BigQuery](https://cloud.google.com/bigquery/docs/custom-quotas) at user and project level.
 
