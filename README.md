@@ -26,7 +26,7 @@ The concepts and services introduced in this section *should* be learned by ever
 > [!CAUTION]
 > A single security incident of the right kind can wipe out your career, if not the entire business you work for. An unexpected cloud bill can turn a profitable year into a year of losses. Don't let it happen to you &mdash; study this section at the earliest opportunity in your cloud journey. 
 
-The remainder of this chapter is split into subsections, each of which introducing a new core concept or service.
+The remainder of this chapter is split into sections with each section introducing a new core concept or service.
 
 ### Resource Hierarchy
 
