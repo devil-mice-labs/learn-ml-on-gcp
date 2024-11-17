@@ -90,13 +90,46 @@ Learn to [create custom cost controls for BigQuery](https://cloud.google.com/big
 
 ## Code samples
 
-Samples showcasing Google Cloud for machine learning applications.
+Samples showcasing Google Cloud for machine learning and data applications.
+
+
+### [Advanced Solutions Lab · ML Immersion](https://github.com/GoogleCloudPlatform/asl-ml-immersion)
+
+`github.com / GoogleCloudPlatform / asl-ml-immersion`
+
+This repository contains Jupyter notebooks meant to be run on Vertex AI. It is maintained by Google Cloud's [Advanced Solutions Lab (ASL)](https://cloud.google.com/asl) team.
+
+In particular, the notebooks in this repository cover a wide range of model architectures targeting different data modalities implemented mainly in Tensorflow and Keras, as well as the tools on Google Cloud's Vertex AI for operationalizing Tensorflow, Scikit-learn and PyTorch models at scale (e.g. Vertex training, tuning, and serving, TFX and Kubeflow pipelines).
+
 
 ### [Cloud Learning Services · Specialized Training Resources](https://github.com/GoogleCloudPlatform/specialized-training-content)
 
 `github.com / GoogleCloudPlatform / specialized-training-content`
 
 This repository contains files that are used for instructor-led training courses as part of the Cloud Learning Services Specialized Training program. These files are used in classroom demos, hands-on lab activities, and for supplemental discussions around course topics. Files are organized by course.
+
+
+### [Google Cloud Training · Data Analyst](https://github.com/GoogleCloudPlatform/training-data-analyst)
+
+`github.com / GoogleCloudPlatform / training-data-analyst`
+
+Labs and demos for courses for [GCP Training](http://cloud.google.com/training).
+
+
+### [Google Cloud Platform · Python Samples](https://github.com/GoogleCloudPlatform/python-docs-samples)
+
+`github.com / GoogleCloudPlatform / python-docs-samples`
+
+Python samples for [Google Cloud Platform products](https://cloud.google.com/).
+
+
+<!--
+### [WHO · WHAT](HTTPS)
+
+`github.com / GoogleCloudPlatform / REPO`
+
+DESCRIPTION
+-->
 
 ## Datasets
 
