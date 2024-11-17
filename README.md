@@ -92,6 +92,11 @@ Learn to [create custom cost controls for BigQuery](https://cloud.google.com/big
 
 Samples showcasing Google Cloud for machine learning and data applications.
 
+### [Google Cloud Applied AI Engineering team · Samples](https://github.com/GoogleCloudPlatform/applied-ai-engineering-samples)
+
+`github.com / GoogleCloudPlatform / applied-ai-engineering-samples`
+
+This repository contains code samples and notebooks demonstrating how to use Generative AI on Google Cloud Vertex AI.
 
 ### [Advanced Solutions Lab · ML Immersion](https://github.com/GoogleCloudPlatform/asl-ml-immersion)
 
