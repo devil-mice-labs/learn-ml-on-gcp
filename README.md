@@ -114,6 +114,13 @@ This repository contains Jupyter notebooks meant to be run on Vertex AI. It is m
 In particular, the notebooks in this repository cover a wide range of model architectures targeting different data modalities implemented mainly in Tensorflow and Keras, as well as the tools on Google Cloud's Vertex AI for operationalizing Tensorflow, Scikit-learn and PyTorch models at scale (e.g. Vertex training, tuning, and serving, TFX and Kubeflow pipelines).
 
 
+### [Google Cloud · Vertex AI Samples](https://github.com/GoogleCloudPlatform/vertex-ai-samples)
+
+`github.com / GoogleCloudPlatform / vertex-ai-samples`
+
+This repository contains notebooks, code samples, sample apps, and other resources that demonstrate how to use, develop and manage machine learning and generative AI workflows using Google Cloud Vertex AI.
+
+
 ### [Cloud Learning Services · Specialized Training Resources](https://github.com/GoogleCloudPlatform/specialized-training-content)
 
 `github.com / GoogleCloudPlatform / specialized-training-content`
