@@ -88,6 +88,16 @@ Learn to [create custom cost controls for BigQuery](https://cloud.google.com/big
 
 * [`Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow` (3rd Edition)](https://learning.oreilly.com/library/view/hands-on-machine-learning/9781098125967/) explores a range of techniques with numerous code examples and exercises throughout the book help you apply what you've learned. Programming experience is all you need to get started. A useful book to get the "feel" for these popular ML libraries.
 
+## Code samples
+
+Samples showcasing Google Cloud for machine learning applications.
+
+### [Cloud Learning Services · Specialized Training Resources](https://github.com/GoogleCloudPlatform/specialized-training-content)
+
+`github.com / GoogleCloudPlatform / specialized-training-content`
+
+This repository contains files that are used for instructor-led training courses as part of the Cloud Learning Services Specialized Training program. These files are used in classroom demos, hands-on lab activities, and for supplemental discussions around course topics. Files are organized by course.
+
 ## Datasets
 
 The public data sources for your machine learning experiments.
@@ -98,10 +108,13 @@ The public data sources for your machine learning experiments.
 
 ## Sandboxes
 
-The environments that let you write and execute machine learning (and other) code in your browser.
+Environments for writing and running code in your browser.
 
-* [Google Colaboratory]() – zero configuration required, easy sharing, access to VMs and GPUs free of charge.
-* ...
+### [Google Colaboratory](https://colab.google/)
+
+[Open Colab](https://colab.research.google.com/) · [New Notebook](https://colab.new/)
+
+Colab is a hosted Jupyter Notebook service that requires no setup to use and provides free access to computing resources, including GPUs and TPUs. Colab is especially well suited to machine learning, data science, and education.
 
 ## Machine Learning
 
