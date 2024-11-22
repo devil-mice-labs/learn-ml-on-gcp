@@ -221,14 +221,16 @@ For [TensorFlow](https://www.tensorflow.org/) ML library, there is a [TensorFlow
 
 And for infrastructure automation [Terraform Associate](https://www.hashicorp.com/certification/terraform-associate) is the way to go. The official [study guide](https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-study-003) is quite good.
 
-## Notation
+## Renamed products
 
-The AI products and services sometimes are rebranded and reshuffled. This section keeps a track of notable changes. This is useful because the docs pages and Cloud Skills Boost courses and labs often are updated at a differente cadence so you may see a mix of old and new names.
+*Some* changes in product names. You might see the old names in some places—for example, in videos.
 
-[`Vertex AI Search and Conversation` is now generally available](https://cloud.google.com/blog/products/ai-machine-learning/vertex-ai-search-and-conversation-is-now-generally-available) (August 29, 2023):
+* *Vertex AI Search and Conversation* is now *Vertex AI Agent Builder* [:link:](https://cloud.google.com/generative-ai-app-builder/docs/release-notes#April_24_2024) (April 24, 2024)
+  - `Vertex AI Search` kept its name
+  - `Vertex AI Conversation` to `Vertex AI Agents`
+* *Generative AI App Builder* is now *Vertex AI Search and Conversation* [:link:](https://cloud.google.com/generative-ai-app-builder/docs/release-notes#October_09_2023) (October 09, 2023)
+  - `Enterprise Search` to `Vertex AI Search`
+  - `Conversational AI` to `Vertex AI Conversation`
 
-* `Generative AI App Builder` is now `Vertex AI Search and Conversation`, and its components are
-  - `Enterprise Search` is now `Vertex AI Search`
-  - `Conversational AI` is now `Vertex AI Conversation`
 * [`Bard` is now `Gemini`](https://blog.google/products/gemini/bard-gemini-advanced-app/)
 * [`Duet AI` is now `Gemini` and `Gemini for Workspace`](https://blog.google/technology/ai/google-gemini-update-sundar-pichai-2024/)
