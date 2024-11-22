@@ -157,6 +157,7 @@ The public data sources for your machine learning experiments.
 * [UCI Machine Learning Repository](https://archive.ics.uci.edu/)
 * [TensorFlow Datasets](https://www.tensorflow.org/datasets)
 * [Google BigQuery Open Datasets](https://www.reddit.com/r/bigquery/wiki/datasets/) on Reddit
+* [Hugging Face](https://huggingface.co/)
 
 ## Sandboxes
 
