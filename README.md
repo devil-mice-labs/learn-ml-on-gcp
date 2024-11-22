@@ -215,7 +215,7 @@ At the apex of the hierarchy there is **Professional** certification:
 * [Data Engineer](https://cloud.google.com/learn/certification/data-engineer)
 * ... and other roles.
 
-You can (optionally) make your certification record public on [Google Cloud Certified Directory](https://googlecloudcertified.credential.net/profile/f3c409490600bb5cfbdbff2a277d9ef70fbad066?name=frolovs).
+You can opt in to have your earnder certification credentials public on [Google Cloud Skills Directory](https://www.credly.com/organizations/google-cloud/directory), powered by Credly.
 
 For [TensorFlow](https://www.tensorflow.org/) ML library, there is a [TensorFlow Developer Certificate](https://www.tensorflow.org/certificate).
 
