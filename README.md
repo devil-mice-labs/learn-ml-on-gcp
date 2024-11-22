@@ -234,3 +234,5 @@ And for infrastructure automation [Terraform Associate](https://www.hashicorp.co
 
 * [`Bard` is now `Gemini`](https://blog.google/products/gemini/bard-gemini-advanced-app/)
 * [`Duet AI` is now `Gemini` and `Gemini for Workspace`](https://blog.google/technology/ai/google-gemini-update-sundar-pichai-2024/)
+
+* `Vertex AI` was `AI Platform` until [:link:](https://cloud.google.com/vertex-ai/docs/release-notes#May_18_2021) May 18, 2021. Some APIs and endpoint domain names still use the old name.
