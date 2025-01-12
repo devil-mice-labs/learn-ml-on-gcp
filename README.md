@@ -88,6 +88,8 @@ Learn to [create custom cost controls for BigQuery](https://cloud.google.com/big
 
 * [`Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow` (3rd Edition)](https://learning.oreilly.com/library/view/hands-on-machine-learning/9781098125967/) explores a range of techniques with numerous code examples and exercises throughout the book help you apply what you've learned. Programming experience is all you need to get started. A useful book to get the "feel" for these popular ML libraries.
 
+* Andriy Burkov’s [`The Hundred-Page Machine Learning Book` (self-published)](https://themlbook.com/) is very short but covers an impressive range of topics, introducing them in approachable terms without shying away from the math equations.
+
 * Stuart Russell and Peter Norvig’s `Artificial Intelligence: A Modern Approach, 4th edition (Pearson)`, is a great (and huge) book covering an incredible amount of topics, including machine learning. It helps put ML into perspective.
 
 ## Code samples
