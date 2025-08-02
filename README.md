@@ -225,18 +225,39 @@ For [TensorFlow](https://www.tensorflow.org/) ML library, there is a [TensorFlow
 
 And for infrastructure automation [Terraform Associate](https://www.hashicorp.com/certification/terraform-associate) is the way to go. The official [study guide](https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-study-003) is quite good.
 
-## Renamed products
+## Rebranded products and services
 
-*Some* changes in product names. You might see the old names in some places—for example, in videos.
+As someone wiser than me once said, 
 
-* *Vertex AI Search and Conversation* is now *Vertex AI Agent Builder* [:link:](https://cloud.google.com/generative-ai-app-builder/docs/release-notes#April_24_2024) (April 24, 2024)
-  - `Vertex AI Search` kept its name
-  - `Vertex AI Conversation` to `Vertex AI Agents`
-* *Generative AI App Builder* is now *Vertex AI Search and Conversation* [:link:](https://cloud.google.com/generative-ai-app-builder/docs/release-notes#October_09_2023) (October 09, 2023)
-  - `Enterprise Search` to `Vertex AI Search`
-  - `Conversational AI` to `Vertex AI Conversation`
+> There are two hard problems in computer science: cache invalidation, naming things, and off-by-1 errors.
 
-* [`Bard` is now `Gemini`](https://blog.google/products/gemini/bard-gemini-advanced-app/)
-* [`Duet AI` is now `Gemini` and `Gemini for Workspace`](https://blog.google/technology/ai/google-gemini-update-sundar-pichai-2024/)
+The GenAI/ML toolstack on Google Cloud is evolving very rapidly so we shouldn't be too surprised to learn that a number of products and services went through rebranding. You might still spot some of these names when working with Google Cloud client libraries, older docs and learning materials, or even when interacting with ML solutions deployed at your workplace.
 
-* `Vertex AI` was `AI Platform` until [:link:](https://cloud.google.com/vertex-ai/docs/release-notes#May_18_2021) May 18, 2021. Some APIs and endpoint domain names still use the old name.
+This section is by no means complete. 
+
+---
+
+`Vertex AI Agent Engine` was formerly known as:
+- `LangChain on Vertex AI`
+- `Vertex AI Reasoning Engine`
+
+---
+
+`Vertex AI Agent Builder` was formerly known as `Vertex AI Search and Conversation` [:link:](https://cloud.google.com/generative-ai-app-builder/docs/release-notes#April_24_2024) (April 24, 2024). It is made of two parts:
+- `Vertex AI Search` kept its name
+- `Vertex AI Agents` was formerly known as `Vertex AI Conversation`
+  
+`Vertex AI Search and Conversation` was formerly known as `Generative AI App Builder` [:link:](https://cloud.google.com/generative-ai-app-builder/docs/release-notes#October_09_2023) (October 09, 2023)
+- `Vertex AI Search` was `Enterprise Search`
+- `Vertex AI Conversation` was `Conversational AI`
+
+---
+
+[`Bard` is now `Gemini`](https://blog.google/products/gemini/bard-gemini-advanced-app/)
+
+---
+
+[`Duet AI` is now `Gemini` and `Gemini for Workspace`](https://blog.google/technology/ai/google-gemini-update-sundar-pichai-2024/)
+
+---
+`Vertex AI` was `AI Platform` before [:link:](https://cloud.google.com/vertex-ai/docs/release-notes#May_18_2021) May 18, 2021.
