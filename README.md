@@ -253,11 +253,16 @@ This section is by no means complete.
 
 ---
 
-[`Bard` is now `Gemini`](https://blog.google/products/gemini/bard-gemini-advanced-app/)
+[`Bard`](https://blog.google/technology/ai/try-bard/) was an interface to an LLM, and that LLM went on to become [`Gemini`](https://blog.google/products/gemini/bard-gemini-advanced-app/).
+
+These days Gemini is a name that can mean different things depending on the context, however two services stand out in particular: 
+
+- Gemini [`Cloud Assist`](https://cloud.google.com/products/gemini/cloud-assist) offers AI assistance on infrastructure and operations on Google Cloud.
+- Gemini [`Code Assist`](https://codeassist.google/) is an AI-powered extension for your IDE to assist with your software development needs.
+
+There was also `Duet AI`, introduced a few months after `Bard` but later its functions were also absorbed into `Gemini`:
+- [`Duet AI` is now `Gemini` and `Gemini for Workspace`](https://blog.google/technology/ai/google-gemini-update-sundar-pichai-2024/)
 
 ---
 
-[`Duet AI` is now `Gemini` and `Gemini for Workspace`](https://blog.google/technology/ai/google-gemini-update-sundar-pichai-2024/)
-
----
 `Vertex AI` was `AI Platform` before [:link:](https://cloud.google.com/vertex-ai/docs/release-notes#May_18_2021) May 18, 2021.
